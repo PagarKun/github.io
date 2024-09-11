@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.background-jumbo {
+    background-image: url(asset/img/karakter-shuumatsu-no-valkyrie.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1, p {
+color: rgb(0, 0, 0);
+
+}
+
+h1 {
+    padding-top:250px;
+    font-style: italic;
+    font-family:'Trebuchet MS';
+    color: rgb(23, 211, 149);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    animation: infinite-scroll 11s linear infinite;
+    
+}
+
+@keyframes infinite-scroll {
+    from {
+        transform: translate(-100vw);
+    }
+
+    to {
+        transform: translate(100vw);
+    }
+
+}
+.logo img {
+    filter: grayscale(0);
+}
+.logo img:hover {
+    filter:grayscale(0)
+}
+
+.about1 {
+    width: 120px;
+    height: 115px;
+  margin-left: 40px;
+}
+
+.portofolio1{
+    width: 240px;
+    height: 200px;
+    margin-left: 430px
+}
